@@ -1,0 +1,5 @@
+CREATE TABLE "movies" (
+    "id" SERIAL NOT NULL PRIMARY KEY,
+    "title" VARCHAR(50) NOT NULL UNIQUE,
+    "score" REAL NOT NULL
+);
